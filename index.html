@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>uneke</title>
+</head>
+
+<body>
+    <!-- шапка/меню -->
+    <header class="header bg-dark">
+        <div class="header-content container-xl">
+            <nav class="navbar navbar-expand-md">
+                <a href="#" class="navbar-brand">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <button class="navbar-dark navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#my-nav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="my-nav">
+                    <ul class="navbar-nav ms-lg-5 ms-md-0">
+                        <li class="nav-item dropdown mx-lg-2 mx-md-0">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            All furniture
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-lg-2 mx-md-0">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item mx-lg-2 mx-md-0">
+                            <a class="nav-link" href="#">News</a>
+                        </li>
+                        <li class="nav-item mx-lg-2 mx-md-0">
+                            <a class="nav-link" href="#">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#">
+                        <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.7906 10.7902L16 16" stroke="#FCFCFC" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M6.73529 12.4706C9.9028 12.4706 12.4706 9.9028 12.4706 6.73529C12.4706 3.56777 9.9028 1 6.73529 1C3.56777 1 1 3.56777 1 6.73529C1 9.9028 3.56777 12.4706 6.73529 12.4706Z" stroke="#FCFCFC" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                    </a>
+                    <a class="ps-4" href="#">
+                        <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.9989 5.27628C16.005 4.37118 15.7302 3.48777 15.2146 2.75487C14.6989 2.02196 13.9695 1.47791 13.1326 1.20205C12.2957 0.926197 11.3952 0.932964 10.5623 1.22137C9.72938 1.50977 9.00772 2.06472 8.50254 2.80529C7.99735 2.06472 7.27569 1.50977 6.4428 1.22137C5.60991 0.932964 4.70935 0.926197 3.87246 1.20205C3.03557 1.47791 2.30613 2.02196 1.79052 2.75487C1.2749 3.48777 1.00008 4.37118 1.00614 5.27628C0.997954 5.4306 0.997954 5.58527 1.00614 5.73959C1.45592 10.2183 8.50254 14.9286 8.50254 14.9286C8.50254 14.9286 14.7245 10.6043 15.849 6.51177C15.9576 6.10977 16.0082 5.69346 15.9989 5.27628Z" stroke="#FCFCFC" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- шапка/меню -->
+    <!-- главная страница -->
+    <section class="main-section">
+        <div class="container-xl d-flex justify-content-between mx-auto position-relative h-100">
+            <div class=" social-link position-absolute top-0 end-0">
+                <a href="#" class="d-block mt-5 mb-3">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.112 3.77728C14.844 3.87721 14.5693 3.95808 14.29 4.01928C14.2632 4.02528 14.2352 4.02231 14.2103 4.01083C14.1854 3.99935 14.1649 3.97999 14.1521 3.95574C14.1393 3.93148 14.1348 3.90369 14.1393 3.87664C14.1439 3.84958 14.1572 3.82477 14.1772 3.80603C14.4976 3.4992 14.7615 3.13846 14.957 2.74028C14.9683 2.71673 14.9719 2.69024 14.9673 2.66452C14.9628 2.6388 14.9503 2.61516 14.9316 2.5969C14.913 2.57864 14.889 2.56669 14.8632 2.56272C14.8374 2.55876 14.811 2.56297 14.7877 2.57478C14.2805 2.84686 13.7272 3.02242 13.156 3.09253C12.5572 2.49817 11.7496 2.16169 10.906 2.15503C10.4996 2.15467 10.0972 2.23444 9.72172 2.38977C9.34623 2.54511 9.00506 2.77296 8.71773 3.06029C8.4304 3.34762 8.20255 3.68879 8.04722 4.06427C7.89188 4.43976 7.81211 4.84218 7.81247 5.24853C7.81142 5.47698 7.83497 5.70488 7.88272 5.92828C5.62073 5.85978 2.98023 4.76653 1.43748 2.86603C1.42461 2.84991 1.40796 2.83723 1.389 2.82911C1.37004 2.82099 1.34937 2.81768 1.32883 2.81949C1.30829 2.8213 1.28851 2.82816 1.27126 2.83946C1.25401 2.85077 1.23983 2.86616 1.22998 2.88428C0.932683 3.49678 0.843983 4.18973 0.977419 4.85736C1.11085 5.52499 1.45909 6.13061 1.96898 6.58178C1.98947 6.59846 2.00415 6.6212 2.01091 6.64673C2.01767 6.67227 2.01617 6.6993 2.00662 6.72393C1.99706 6.74856 1.97995 6.76953 1.95774 6.78383C1.93553 6.79814 1.90935 6.80503 1.88298 6.80353C1.61354 6.79154 1.34957 6.72342 1.10798 6.60353C1.08833 6.59358 1.06641 6.58899 1.04443 6.59024C1.02244 6.59148 1.00118 6.59851 0.982781 6.61061C0.964386 6.62271 0.949514 6.63946 0.939671 6.65916C0.929828 6.67886 0.925362 6.7008 0.926726 6.72278C0.95185 7.31352 1.15613 7.88263 1.51243 8.3545C1.86873 8.82637 2.36018 9.17864 2.92148 9.36453C2.94754 9.37393 2.96975 9.39172 2.9846 9.41511C2.99946 9.43849 3.00612 9.46616 3.00354 9.49374C3.00097 9.52133 2.9893 9.54728 2.97037 9.56751C2.95144 9.58775 2.92633 9.60112 2.89898 9.60553C2.66356 9.63224 2.42589 9.63224 2.19048 9.60553C2.17016 9.60362 2.14967 9.60666 2.13078 9.61438C2.11189 9.6221 2.09515 9.63428 2.08198 9.64988C2.06882 9.66548 2.05962 9.68403 2.05518 9.70395C2.05074 9.72387 2.05118 9.74457 2.05648 9.76428C2.26873 10.5848 3.32948 11.5455 4.51623 11.6773C4.54001 11.6804 4.5624 11.6903 4.58072 11.7057C4.59905 11.7212 4.61253 11.7416 4.61957 11.7646C4.6266 11.7875 4.6269 11.812 4.62041 11.835C4.61392 11.8581 4.60093 11.8789 4.58298 11.8948C3.59334 12.6874 2.34971 13.094 1.08298 13.039C1.05459 13.0378 1.02662 13.0462 1.00368 13.063C0.980741 13.0797 0.964195 13.1038 0.956771 13.1312C0.949347 13.1587 0.951488 13.1878 0.962841 13.2139C0.974193 13.2399 0.994081 13.2613 1.01923 13.2745C2.35578 13.9755 3.84252 14.3415 5.35173 14.341C6.52457 14.3488 7.68668 14.1172 8.767 13.6606C9.84731 13.2039 10.8231 12.5317 11.6348 11.685C12.4465 10.8384 13.0769 9.83507 13.4876 8.73646C13.8984 7.63785 14.0807 6.46701 14.0235 5.29553V5.17828C14.4983 4.84553 14.9151 4.4368 15.257 3.96853C15.2731 3.94681 15.2817 3.92045 15.2816 3.8934C15.2814 3.86635 15.2725 3.84008 15.2562 3.81853C15.2399 3.79697 15.217 3.7813 15.191 3.77387C15.165 3.76643 15.1372 3.76763 15.112 3.77728V3.77728Z" stroke="white" stroke-miterlimit="10"/>
+</svg>
+                </a>
+                <a href="#" class="d-block">
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.828 3.35925H11.75V0.5H9.4765C6.7345 0.61725 6.172 2.164 6.125 3.78125V5.211H4.25V8H6.125V15.5H8.9375V8H11.2577L11.703 5.211H8.9375V4.34375C8.92995 4.22033 8.94713 4.09664 8.98802 3.97994C9.02892 3.86325 9.09272 3.7559 9.17567 3.66419C9.25862 3.57248 9.35905 3.49827 9.47107 3.44591C9.58309 3.39354 9.70444 3.36408 9.828 3.35925V3.35925Z" stroke="white" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+                </a>
+            </div>
+            <div class="main-content">
+                <div class="main-section-title">
+                    <h5 class="title fw-bold">Since 1982</h5>
+                    <h1>Specialist custom designers and manufacturers</h1>
+                    <button type="button" class="btn btn-light mt-4">Shop online</button>
+                </div>
+                <div class="main-section-about">
+                    <h5 class="title fw-bold ">About us</h5>
+                    <div>We specialise as custom designers and makers of free standing timber furniture. Trading since 1982, we have built an excellent reputation for quality custom made furniture.</div>
+                    <button type="button " class="btn btn-outline-light mt-3 ">Read more</button>
+                </div>
+            </div>
+            <div class="position-absolute bottom-0 start-0 mb-3">
+                <a href="#section-exampls">
+                    <svg width="53" height="54" viewBox="0 0 53 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<path d="M26.3093 38.3802L26.3092 1.82327" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+<path d="M18.0238 30.0957L26.3091 38.381L34.3681 30.3219" stroke="white" stroke-width="2" stroke-miterlimit="10"/>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="36.4712" height="37.4948" fill="white" transform="translate(0 26.578) rotate(-45)"/>
+</clipPath>
+</defs>
+</svg>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- главная страница -->
+    <!-- пример работ -->
+    <section id="section-exampls" class="section-example">
+        <div class="mx-auto container-xl row row-cols-lg-3 row-cols-md-2 row-cols-sm-1">
+            <div class="col mb-4">
+                <div class="card border-0 text-center bg-transparent">
+                    <img src="images/example1.jpg" class="card-img-top" alt="">
+                    <div class="fs-5 example-title fw-bold text-body mt-3">Lounge</div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card border-0 text-center bg-transparent">
+                    <img src="images/example2.jpg" class="card-img-top" alt="">
+                    <div class="fs-5 example-title fw-bold text-body mt-3">Bedroom</div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card border-0 text-center bg-transparent">
+                    <img src="images/example3.jpg" class="card-img-top" alt="">
+                    <div class="fs-5 example-title fw-bold text-body mt-3">Dinning</div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card border-0 text-center bg-transparent">
+                    <img src="images/example4.jpg" class="card-img-top" alt="">
+                    <div class="fs-5 example-title fw-bold text-body mt-3">Office</div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card border-0 text-center bg-transparent">
+                    <img src="images/example5.jpg" class="card-img-top" alt="">
+                    <div class="fs-5 example-title fw-bold text-body mt-3">Acsessories</div>
+                </div>
+            </div>
+            <div class="col mb-5">
+                <div class="card border-0 text-center bg-transparent">
+                    <img src="images/example6.jpg" class="card-img-top" alt="">
+                    <div class="fs-5 example-title fw-bold text-body mt-3">Custom furniture</div>
+                </div>
+            </div>
+        </div>
+        <!-- статистика -->
+        <div class="card-group container-xl bg-dark text-center mt-4">
+            <div class="card bg-dark border-0 stat">
+                <div class="card-body p-4">
+                    <div class="fs-5">Established</div>
+                    <div class="fw-bold fs-5">1982</div>
+                </div>
+            </div>
+            <div class="card bg-dark border-0 stat">
+                <div class="card-body p-4">
+                    <div class="fw-bold fs-5">3000</div>
+                    <div class="fs-5">Happy customers</div>
+                </div>
+            </div>
+            <div class="card bg-dark border-0 stat">
+                <div class="card-body p-4 ">
+                    <div class="fw-bold fs-5">3000</div>
+                    <div class="fs-5">Happy customers</div>
+                </div>
+            </div>
+            <div class="card bg-dark border-0 stat">
+                <div class="card-body p-4 ">
+                    <div class="fs-5">Established</div>
+                    <div class="fw-bold fs-5">1982</div>
+                </div>
+            </div>
+        </div>
+        <!-- статистика -->
+    </section>
+    <!-- пример работ -->
+    <!-- продукция -->
+    <section>
+        <div class="products">
+            <h5 class="example-title fw-bold text-center text-body">Featured products</h5>
+            <div id="carouselExampleIndicators" data-interval="false" class="carousel slide">
+                <div class="carousel-inner slider mt-3 pb-5">
+                    <div class="carousel-item active">
+                        <div class="slider d-flex text-body justify-content-center">
+                            <div class="my-md-3 me-md-3">
+                                <img src="images/product4.png" alt="">
+                                <div class="fw-bold mt-3">Mosse dinning chair</div>
+                                <div>Dinning</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product1.png" alt="">
+                                <div class="fw-bold mt-3">Rotating Blu-ray and DVD Racks</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product2.png" alt="">
+                                <div class="fw-bold mt-3">Rotating Blu-ray and DVD Racks</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product3.png" alt="">
+                                <div class="fw-bold mt-3">Aspen sofa table</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product4.png" alt="">
+                                <div class="fw-bold mt-3">Mondi chair</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product2.png" alt="">
+                                <div class="fw-bold mt-3">Mosse dinning chair</div>
+                                <div>Dinning</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class=" slider d-flex text-body justify-content-center">
+                            <div class="my-md-3 me-md-3">
+                                <img src="images/product2.png" alt="">
+                                <div class="fw-bold mt-3">Rotating Blu-ray and DVD Racks</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product1.png" alt="">
+                                <div class="fw-bold mt-3">Aspen sofa table</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product3.png" alt="">
+                                <div class="fw-bold mt-3">Mondi chair</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product4.png" alt="">
+                                <div class="fw-bold mt-3">Mosse dinning chair</div>
+                                <div>Dinning</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product1.png" alt="">
+                                <div class="fw-bold mt-3">Rotating Blu-ray and DVD Racks</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product2.png" alt="">
+                                <div class="fw-bold mt-3">Aspen sofa table</div>
+                                <div>Lounge</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="slider d-flex text-body justify-content-center">
+                            <div class="my-md-3 me-md-3">
+                                <img src="images/product2.png" alt="">
+                                <div class="fw-bold mt-3">Rotating Blu-ray and DVD Racks</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product1.png" alt="">
+                                <div class="fw-bold mt-3">Aspen sofa table</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product2.png" alt="">
+                                <div class="fw-bold mt-3">Mondi chair</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product3.png" alt="">
+                                <div class="fw-bold mt-3">Mosse dinning chair</div>
+                                <div>Dinning</div>
+                            </div>
+                            <div class="m-3">
+                                <img src="images/product2.png" alt="">
+                                <div class="fw-bold mt-3">Rotating Blu-ray and DVD Racks</div>
+                                <div>Lounge</div>
+                            </div>
+                            <div class="my-3 me-3">
+                                <img src="images/product4.png" alt="">
+                                <div class="fw-bold mt-3">Rotating Blu-ray and DVD Racks</div>
+                                <div>Lounge</div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- продукция -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
